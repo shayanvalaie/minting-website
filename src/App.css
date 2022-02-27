@@ -1,5 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .App {
   text-align: center;
+ 
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  
+  height: 100vh;
+  padding: 50px;
+  /* ff 3.6+ */
+  background:-moz-radial-gradient(circle at 50% 50%, rgba(42, 75, 93, 1) 0%, rgba(240, 155, 175, 1) 100%);
+
+  /* safari 5.1+,chrome 10+ */
+  background:-webkit-radial-gradient(circle at 50% 50%, rgba(42, 75, 93, 1) 0%, rgba(240, 155, 175, 1) 100%);
+
+  /* opera 11.10+ */
+  background:-o-radial-gradient(circle at 50% 50%, rgba(42, 75, 93, 1) 0%, rgba(240, 155, 175, 1) 100%);
+
+  /* ie 10+ */
+  background:-ms-radial-gradient(circle at 50% 50%, rgba(42, 75, 93, 1) 0%, rgba(240, 155, 175, 1) 100%);
+
+  /* global 92%+ browsers support */
+  background:radial-gradient(circle at 50% 50%, rgba(42, 75, 93, 1) 0%, rgba(240, 155, 175, 1) 100%);
+  
+
+}
+
+p, h1 {
+  color: #F1A6AB;
+  letter-spacing: 10px;
+  font-family: "arial";
+  text-shadow: 2px 2px  #385E72;
+
+ 
+  
+ 
+  
+  
+  
+}
+
+img {
+  max-width: 25%;
+  height: auto;
+  border-radius:5px;
+  filter: drop-shadow(0 0 0.75rem #385E72);
 }
 
 .App-logo {
@@ -23,6 +72,21 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+
+
+button {
+  color: #F4BFD4 !important;
+  background: none;
+  border: solid #F19AB0 1px;
+  padding: 10px;
+  border-radius: 2px !important;
+  text-shadow: 1px 1px  #385E72;
+}
+
+button:hover {
+  border: 1px solid #9D85B3;
+}
+
 
 .App-link {
   color: #61dafb;
